@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Depth Meter\"",
+                "minecraft:custom_data": "{item:{id:\"gm4_tracker_trinkets:2_depth_meter\",origin:\"gm4_tracker_trinkets\"}}",
+                "!minecraft:equippable": {},
+                "minecraft:item_model": "minecraft:iron_ingot",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

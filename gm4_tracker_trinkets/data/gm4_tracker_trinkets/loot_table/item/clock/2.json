@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Clock\"",
+                "minecraft:custom_data": "{item:{id:\"gm4_tracker_trinkets:2_clock\",origin:\"gm4_tracker_trinkets\"}}"
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}
